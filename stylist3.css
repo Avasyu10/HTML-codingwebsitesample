@@ -6,6 +6,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+hr{
+    background-color: black;
+    height: 3px;
+    width: 100%;
+}
 img{
     height: 90px;
     width: 90px;
