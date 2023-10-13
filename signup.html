@@ -5,7 +5,7 @@
 <title> CSS Login Screen Tutorial </title>
 </head>
 <body>
-  <body>
+  
     <div class="login-page">
       <div class="form">
         <div class="login">
@@ -15,16 +15,20 @@
           </div>
         </div>
         <form class="login-form">
-          <input type="text" placeholder="username"/>
-          <input type="password" placeholder="password"/>
+          <input type="username" placeholder="Username"/>
+          <input type="password" id="password" placeholder="Password"/>
 		  <p class="message">Not registered? <a href="#">Create an account</a></p>
-        </form>
+      
+        
 		<br>
 		
-          <form action="Coding_tutorials.html" class="button1"><button>login</button></form>
-          
+          <input type="submit" class="submit" value="LOGIN">
+          <p id="error-message"></p>
+        </form>
       </div>
     </div>
+
+  <script src="script1.js"></script>
 </body>
-</body>
+
 </html>
